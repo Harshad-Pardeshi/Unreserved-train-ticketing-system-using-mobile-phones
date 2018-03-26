@@ -1,0 +1,20 @@
+body{background-color:lightblue}
+th{
+	background-color:lightgrey;
+}
+td{
+background-color:lightblue;
+
+}
+table{
+padding-Top: 1px;
+padding-bottom: 1px;
+}
+
+TableRowOdd{
+background-color: rgb(238, 238, 238);
+}
+
+TableRowEven {
+	background-color: rgb(249, 249, 249);
+}
