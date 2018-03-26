@@ -1,0 +1,20 @@
+<assembly>
+	<id>web-assembly</id>
+	<formats>
+		<format>dir</format>
+	</formats>
+	<includeBaseDirectory>false</includeBaseDirectory>
+	<baseDirectory>.</baseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>target/classes</directory>
+			<outputDirectory>static_resources</outputDirectory>
+			<useDefaultExcludes>true</useDefaultExcludes>
+			<excludes>
+				<exclude>**/*.tml</exclude>
+				<exclude>**/*.class</exclude>
+			</excludes>
+		</fileSet>
+	</fileSets>
+
+</assembly>

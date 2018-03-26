@@ -1,0 +1,10 @@
+
+<openejb>	
+	<Resource id="railway" type="DataSource" >
+		JdbcDriver oracle.jdbc.driver.OracleDriver
+		JdbcUrl jdbc:oracle:thin:@localhost:1521:xe
+		UserName TEST_DB
+		Password TEST_DB
+		JtaManaged true
+	</Resource>
+</openejb>

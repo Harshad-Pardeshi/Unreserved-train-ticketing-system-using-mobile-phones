@@ -1,0 +1,60 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/Source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="31dp"
+            android:text="Source Station"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_src"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Source"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="Enter Source" 
+            >
+
+          
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/Destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Source"
+            android:layout_below="@+id/auto_src"
+            android:layout_marginTop="32dp"
+            android:text="Destination"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_dest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Destination"
+            android:layout_marginTop="18dp"
+            android:ems="10"
+            android:hint="Enter Destination" />
+
+        <Button
+            android:id="@+id/btn_book_new"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/auto_dest"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:text="BOOK" />
+
+    </RelativeLayout>

@@ -1,0 +1,22 @@
+doc:
+	USSD S-Gateway - USSD C_C++ API User Guide
+	USSD S-Gateway - USSDJNI JavaAPI User Guide
+	USSD S-Gateway - XML_TCP_IP Interface User Guide
+	Sangoma_USSD_Gateway_Technical_Overview
+	Sigtran_USSD_Gateway_Technical_Overview
+	USSDGW_Simulator_User_Guide
+
+lib64bit:
+	libussd.so.1.0		- lib for C/C++
+	libussdjni.so.1.0	- lib for JAVA
+
+samples:
+	c++:
+		ussdmenu	- menu interactive test
+		ussdtest	- simple test
+	java:
+		USSDTest	- simple test
+simulator:
+	parser.dll		- parser for the simulators
+	phone.exe		- 'phone skined' simulator
+	ussdgwSimulator.exe	- developer simulator

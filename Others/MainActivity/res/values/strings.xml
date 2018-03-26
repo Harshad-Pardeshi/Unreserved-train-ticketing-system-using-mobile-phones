@@ -1,0 +1,139 @@
+<resources>
+
+    <string name="app_name">Mumbai_Booking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="main_menu_select">Select Choice to Proceed</string>
+    <string name="Book_tkt">Services</string>
+    <string name="timetable">Timetable</string>
+    <string name="title_activity_book_tkt">Book_tkt</string>
+    <string name="warning">* Standard SMS charges will be Applicable</string>
+	
+     <string-array name="no_of_pass">
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+         <item>4</item>
+         <item>5</item>
+         <item>6</item>
+         </string-array>
+
+     <string-array name="Central">
+        <item>CST : Mumbai CST</item>
+      	<item>MASJ : Masjit </item>
+      	<item>SNDR : Sandhurst Road </item>
+        <item>BYCU : Byculla </item>
+        <item>CHIN : Chinchpokli </item>
+        <item>CURR : Currey Road </item>
+        <item>PARL : Parel </item>
+        <item>DADA : Dadar</item>
+      	<item>MATU : Matunga</item>
+        <item>SION : Sion</item>
+        <item>KURL : Kurla</item>
+        <item>VIDY : Vidyavihar</item>
+        <item>GHAT : Ghatkopar</item>
+        <item>VIKH : Vikhroli</item>
+        <item>KANJ : kanjurmarg</item>
+        <item>BHAN : Bhandup</item>
+        <item>NAHU : Nahur</item>
+        <item>MULU : Mulund</item>
+        <item>THAN : Thane</item>
+        <item>KALW : Kalwa</item>
+        <item>MUMB : Mumbra</item>
+        <item>DIVA : Diva</item>
+        <item>KOPA : Kopar</item>
+        <item>DOMB : Dombivli</item>
+        <item>THAK : Thakurli</item>
+        <item>KALY : Kalyan</item>
+        <item>SHAH : Shahad</item>
+        <item>AMBV : Ambivali</item>
+        <item>TITW : Titwala</item>
+        <item>KHAD : Khadavli</item>
+        <item>VASH : Vashind</item>
+        <item>ASAN : Asangaon</item>
+        <item>ATGA : Atgaon</item>
+        <item>KHAR : Khardi</item>
+        <item>KASA : Kasara</item>
+        
+        <item>VITH : Vithalwadi</item>
+        <item>ULHA : Ulhasnagar</item>
+        <item>AMBR :Ambernath</item>
+        <item>BADL : Badlapur</item>
+        <item>VANG : Vangani</item>
+        <item>SHEL : Shelu</item>
+        <item>BHIV : Bhivpuri Rd.</item>
+        <item>KARJ : Karjat</item>
+        <item>PALS : Palasdhari </item>
+        <item>KELA : Kelavli </item>
+        <item>DOLA : Dolavli </item>
+        <item>LOWJ : Lowjee </item>
+        <item>KHOP : Khopoli </item>
+        <!-- ********************************************-->
+        
+        <item>CHUR : Churchgate</item>
+        <item>MARI : Marine lines</item>
+        <item>CHAR : Charni Road</item>
+        <item>GRAN : Grant Road</item>
+        <item>MUMC : Mumbai Central</item>
+        <item>MAHA : Mahalaxmi</item>
+        <item>LOWP : Lower Parel</item>
+        <item>ELPR : Elphinston Road</item>
+        <item>MATR : Matunga Rd.</item>
+        <item>MAHI : Mahim Jn. </item>
+        <item>BAND : Bandra </item>
+        <item>KHAR : Khar Road </item>
+        <item>SANT : Santacruz </item>
+        <item>VILE : Vile Parle </item>
+        <item>ANDH : Andheri </item>
+        <item>JOGE : Jogeshwari </item>
+        <item>GORE : Goregaon </item>
+        <item>MALD : Malad </item>
+        <item>KAND : Kandivali </item>
+        <item>BORI : Borivali </item>
+        <item>DHAI : Dahisar </item>
+        <item>MIRA : Mirar Road </item>
+        <item>BHAY : Bhayandar </item>
+        <item>NAIG : Naigaon </item>
+        <item>VASR : Vasai Road </item>
+        <item>NALA : Nalla Sopara </item>
+        <item>VIRA : Virar </item>
+        <!-- *************************************************-->
+    	
+    	<item>DOCY : Dock Yard</item>
+    	<item>REAY : Reay Road</item>
+    	<item>COTN : Cotton Green</item>
+    	<item>SEWR : Sewri </item>
+    	<item>VADR : Vadala Road</item>
+    	<item>KING : Kings Circle</item>
+    	<item>GTBN : GTB Nagar</item>
+    	<item>CHUN : Chunna Bhatti</item>
+    	<item>TILK : Tilaknagar</item>
+    	<item>CHEM : Chembur</item>
+    	<item>GOVA : Govandi</item>
+    	<item>MANK : Mankhurd</item>
+    	<item>VASH : Vashi</item>
+    	<item>SANP : Sanpada</item>
+    	<item>JUIN : Juinagar</item>
+    	<item>NERU : Nerul</item>
+    	<item>SEAW : Seawood Drive</item>
+    	<item>CBDB : CBD Belapur</item>
+    	<item>KHRG : Kharghar</item>
+    	<item>MANS : Mansarovar</item>
+    	<item>KHAN : Khandeshvar</item>
+    	<item>PANV : Panvel</item>
+    	
+    	<item>AIRO : Airoli</item>
+    	<item>RABL : Rabale</item>
+    	<item>GHAN : Ghansoli</item>
+    	<item>KOPR : KoperKhairne</item>
+    	<item>TURB : Turbhe</item>
+		<!-- ************************************************** -->
+		
+		
+    </string-array>
+    <string name="enter_service_number">Enter The Service Number...</string>
+    <string name="book_ticket_btn">Book Ticket</string>
+    <string name="buy_strn">BUY</string>
+
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                               http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+	<display-name>Railway Ticket Booking</display-name>
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type>
+		<location>/errorPage.jsp</location>
+	</error-page>
+
+	<welcome-file-list>
+		<welcome-file>/login.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>com.account.servlet.InitServlet</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>com.account.servlet.LoginAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>RegistrationAction</servlet-name>
+		<servlet-class>com.account.servlet.RegistrationAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>NewAccountAction</servlet-name>
+		<servlet-class>com.account.servlet.NewAccountAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ViewAccountAction</servlet-name>
+		<servlet-class>com.account.servlet.ViewAccountAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ViewAllAccountAction</servlet-name>
+		<servlet-class>com.account.servlet.ViewAllAccountAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DepositAccountAction</servlet-name>
+		<servlet-class>com.account.servlet.DepositAccountAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DeleteAccountAction</servlet-name>
+		<servlet-class>com.account.servlet.DeleteAccountAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ViewAllTransactionAction</servlet-name>
+		<servlet-class>com.account.servlet.ViewAllTransactionAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet>
+		<servlet-name>ChangeSmsProcessingState</servlet-name>
+		<servlet-class>com.account.servlet.ChangeSmsProcessingStateAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TotalNoOfTravellersAction</servlet-name>
+		<servlet-class>com.account.servlet.TotalNoOfTravellersAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>TotalRevenueAction</servlet-name>
+		<servlet-class>com.account.servlet.TotalRevenueAction</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InitServlet</servlet-name>
+		<url-pattern>/InitServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/Login.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegistrationAction</servlet-name>
+		<url-pattern>/Registration.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>NewAccountAction</servlet-name>
+		<url-pattern>/NewAccount.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewAccountAction</servlet-name>
+		<url-pattern>/ViewAccount.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewAllAccountAction</servlet-name>
+		<url-pattern>/ViewAllAccount.do</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DepositAccountAction</servlet-name>
+		<url-pattern>/DepositAccount.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DeleteAccountAction</servlet-name>
+		<url-pattern>/DeleteAccount.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ViewAllTransactionAction</servlet-name>
+		<url-pattern>/ViewAllTransaction.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ChangeSmsProcessingState</servlet-name>
+		<url-pattern>/ChangeSmsProcessingState.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>TotalNoOfTravellersAction</servlet-name>
+		<url-pattern>/TotalNoOfTravellers.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>TotalRevenueAction</servlet-name>
+		<url-pattern>/TotalRevenue.do</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+
+</web-app>

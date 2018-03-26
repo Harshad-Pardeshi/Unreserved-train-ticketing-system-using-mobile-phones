@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Mumbai_Booking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="main_menu_select">Select Choice to Proceed</string>
+    <string name="Book_tkt">Book Ticket</string>
+    <string name="timetable">Timetable</string>
+    <string name="title_activity_book_tkt">Book_tkt</string>
+    <string name="warning">* Standard SMS charges will be Applicable</string>
+    <string-array name="Central">
+        <item>CST : Mumbai CST</item>
+        <item>MAT : Matunga</item>
+        <item>DAD : Dadar</item>
+        <item>SIO : Sion</item>
+        <item>KUR : Kurla</item>
+        <item>VID : Vidyavihar</item>
+        <item>GHA : Ghatkopar</item>
+        <item>VIK : Vikhroli</item>
+        <item>KAN : kanjurmarg</item>
+        <item>BHA : Bhandup</item>
+        <item>NAH : Nahur</item>
+        <item>MUL : Mulund</item>
+        <item>THA : Thane</item>
+        <item>KALW : Kalwa</item>
+        <item>MUM : Mumbra</item>
+        <item>DIV : Diva</item>
+        <item>KOP : Kopar</item>
+        <item>DOM : Dombivli</item>
+        <item>THK : Thakurli</item>
+        <item>KAL : Kalyan</item>
+        <item>SHA : Shahad</item>
+        <item>AMBV : Ambivali</item>
+        <item>TIT : Titwala</item>
+        <item>KHA : Khadavli</item>
+        <item>VAS : Vashind</item>
+        <item>ASA : Asangaon</item>
+        <item>ATG : Atgaon</item>
+        <item>KHA : Khardi</item>
+        <item>KAS : Kasara</item>
+        <item>VIT : Vithalwadi</item>
+        <item>ULH : Ulhasnagar</item>
+        <item>AMBR :Ambernath</item>
+        <item>BAD : Badlapur</item>
+        <item>VAN : Vangani</item>
+        <item>SHE : Shelu</item>
+        <item>BHI : Bhivpuri Rd.</item>
+        <item>KAR : Karjat</item>
+        <item>CHU : Churchgate</item>
+        <item>MAR : Marine lines</item>
+        <item>CHA : Charni Road</item>
+        <item>GRA : Grant Road</item>
+        <item>MUM : Mumbai Central</item>
+        <item>MAH : Mahalaxmi</item>
+        <item>LOW : Lower Parel</item>
+        <item>ELP : Elphinston Road</item>
+        <item>MATR : Matunga Rd.</item>
+        
+    </string-array>
+
+</resources>

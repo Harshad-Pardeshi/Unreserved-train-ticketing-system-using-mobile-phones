@@ -1,0 +1,46 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/book_self"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="BOOK YOUR TICKET" />
+
+        <Button
+            android:id="@+id/book_other"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/book_self"
+            android:layout_below="@+id/book_self"
+            android:text="BOOK OTHERS TICKET" />
+
+        <Button
+            android:id="@+id/Balance"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/book_other"
+            android:layout_below="@+id/book_other"
+            android:text="BALANCE" />
+
+        <Button
+            android:id="@+id/Help"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Balance"
+            android:layout_below="@+id/Balance"
+            android:text="HELP" />
+
+        <Button
+            android:id="@+id/view_last_tkt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Help"
+            android:layout_alignRight="@+id/Help"
+            android:layout_below="@+id/Help"
+            android:text="View Last Ticket" />
+
+    </RelativeLayout>

@@ -1,0 +1,32 @@
+criteria queries : 
+select no of travellers between 2 stations
+zone wise revenue
+ 
+filter page
+from station 
+to station
+
+>> no of taravellers within 1 month 
+
+>> revenue of one station for last 1 month
+
+>> money saved using our system
+paper cost
+labour cost
+infrastructure
+
+>>zone wise revenue
+
+
+---------------------------------------
+>> no of taravellers within 1 month
+select sum(TKT.nofoticket) from TKT 
+where fromstation = 'kyln' 
+and tostation = 'cst' 
+and createdtime is between today & 1st of this month
+
+
+>> revenue of one station for last 1 month
+selet sum(TKT.amount) from tkt
+where fromstation = 'klyn'
+and createdtime is between today & 1st of this month
